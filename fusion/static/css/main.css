@@ -1,0 +1,45 @@
+table, td {
+   #border: 1px solid black;
+   margin: 80px;
+   margin-left: 40px;
+   padding: 30px;
+   border-collapse: collapse;
+}
+
+table tr td ul {
+    list-style-type: none;
+}
+
+table tr td ul li {
+    display: inline;
+}
+
+
+#fusion_board {
+
+    width: 350px;
+    height: 350px;
+    //background-color: red;
+
+    position: absolute;
+    top:500px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    text-align: center;
+
+}
+
+#fusion_list {
+    list-style-type: none;
+}
+
+#fusion_list li {
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+
+}
